@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS";
+  font-size: 14px;
+  background: #444;
+  line-height: 1.6em;
+}
+img {
+  width: 940px;
+  height: 350px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  width: 980px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+.sub-container{
+  display: flex;
+}
+.slider {
+  width: 949.5px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  padding: 3px;
+  border: 2px solid #666;
+  border-radius: 5px;
+}
+.slide{
+  position: absolute;
+}
+.slide-copy{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background: rgba(0, 51, 102, .15);
+}
+#prev,#next {
+  margin-top: 130px;
+  position: relative;
+  cursor: pointer;
+  z-index: 100;
+}
